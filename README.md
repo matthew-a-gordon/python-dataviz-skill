@@ -41,6 +41,23 @@ unzip python-dataviz.skill
 
 ### Setup Environment
 
+**Modern (recommended):**
+```bash
+cd ~/.openclaw/workspace/skills/python-dataviz
+python3 -m venv .venv
+source .venv/bin/activate
+pip install .
+```
+
+**With uv (fastest):**
+```bash
+cd ~/.openclaw/workspace/skills/python-dataviz
+uv venv
+source .venv/bin/activate
+uv pip install .
+```
+
+**Legacy (backwards compatible):**
 ```bash
 cd ~/.openclaw/workspace/skills/python-dataviz
 python3 -m venv .venv
