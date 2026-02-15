@@ -36,7 +36,7 @@ Create professional charts, graphs, and statistical visualizations using Python'
 cd skills/python-dataviz
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install .
 ```
 
 ### Create a Chart
